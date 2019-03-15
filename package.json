@@ -1,0 +1,27 @@
+{
+  "name": "fvsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmuller3140/finding-vince.git"
+  },
+  "author": "jimmy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmuller3140/finding-vince/issues"
+  },
+  "homepage": "https://github.com/jmuller3140/finding-vince#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
