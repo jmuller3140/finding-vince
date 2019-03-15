@@ -1,7 +1,12 @@
-import { NavbarComponent } from '../components'
+import { Fragment } from 'react'
+import { NavbarComponent, FilmSelectionComponent, HeadComponent } from '../components'
 const Media = () => {
   return (
-    <NavbarComponent />
+    <Fragment>
+      <HeadComponent title='Media Page' />
+      <NavbarComponent />
+      <FilmSelectionComponent />
+    </Fragment>
   )
 }
 

@@ -26,7 +26,6 @@ const NavbarComponent = withRouter(props => {
     }
   ]
 
-  console.log(props)
   return (
     <Fragment>
       {

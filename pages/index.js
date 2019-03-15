@@ -1,7 +1,11 @@
-import { NavbarComponent } from '../components'
+import { Fragment } from 'react'
+import { NavbarComponent, HeadComponent } from '../components'
 const Home = () => {
   return (
-    <NavbarComponent />
+    <Fragment>
+      <HeadComponent title='Home Page' />
+      <NavbarComponent />
+    </Fragment>
   )
 }
 
