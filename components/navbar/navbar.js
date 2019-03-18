@@ -32,7 +32,7 @@ const NavbarComponent = withRouter(props => {
         pages.map((page, idx) => {
           if (props.router.route === page.url) {
             return (
-              <h1>{page.title}</h1>
+              <h1 key={idx}>{page.title}</h1>
             )
           }
           else {

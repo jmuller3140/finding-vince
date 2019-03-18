@@ -3,7 +3,7 @@ import { NavbarComponent, FilmSelectionComponent, HeadComponent } from '../compo
 const Media = () => {
   return (
     <Fragment>
-      <HeadComponent title='Media Page' />
+      <HeadComponent title='Media' />
       <NavbarComponent />
       <FilmSelectionComponent />
     </Fragment>

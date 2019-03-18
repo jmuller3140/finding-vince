@@ -3,7 +3,7 @@ import { NavbarComponent, HeadComponent } from '../components'
 const Contact = () => {
   return (
     <Fragment>
-      <HeadComponent title='Contact Page' />
+      <HeadComponent title='Contact' />
       <NavbarComponent />
     </Fragment>
   )

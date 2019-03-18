@@ -4,7 +4,7 @@ import { NavbarComponent, HeadComponent } from '../components'
 const Artists = () => {
   return (
     <Fragment>
-      <HeadComponent title='Artists Page' />
+      <HeadComponent title='Artists' />
       <NavbarComponent />
     </Fragment>
   )

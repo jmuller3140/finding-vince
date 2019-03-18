@@ -3,7 +3,7 @@ import { NavbarComponent, HeadComponent } from '../components'
 const About = () => {
   return (
     <Fragment>
-      <HeadComponent title='About Page' />
+      <HeadComponent title='About' />
       <NavbarComponent />
     </Fragment>
   )
