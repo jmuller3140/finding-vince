@@ -10,7 +10,11 @@ module.exports = {
         length: "92 min",
         year: "2017",
         country: "Nepal, Canada, China",
-        directed: "Yuqi Kang"
+        directed: "Yuqi Kang",
+        siteTitle: 'FVFF | A Little Wisdom',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -23,7 +27,11 @@ module.exports = {
         length: "57 min",
         year: "2018",
         country: "Ireland, Germany",
-        directed: "Anna Frances Ewert"
+        directed: "Anna Frances Ewert",
+        siteTitle: 'FVFF | Lovers of the Night',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -36,7 +44,11 @@ module.exports = {
         length: "120 min",
         year: "2017",
         country: "Spain",
-        directed: "Pablo Moreno Hernández"
+        directed: "Pablo Moreno Hernández",
+        siteTitle: 'FVFF | Red de Libertad',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -49,7 +61,11 @@ module.exports = {
         length: "5 min",
         year: "2018",
         country: "Spain",
-        directed: "Alberto Rodriguez, Alice Labourel, Fabian Riquejo, Ignazio Acerenza, Jose Luis Herrera, Juan Gonzalez"
+        directed: "Alberto Rodriguez, Alice Labourel, Fabian Riquejo, Ignazio Acerenza, Jose Luis Herrera, Juan Gonzalez",
+        siteTitle: 'FVFF | Aazar',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -62,7 +78,11 @@ module.exports = {
         length: "19 min",
         year: "2017",
         country: "Spain",
-        directed: "Iván Sáinz-Pardo"
+        directed: "Iván Sáinz-Pardo",
+        siteTitle: 'FVFF | Ainhoa',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -72,7 +92,11 @@ module.exports = {
         description: "How do we embrace culture? What are the stories that reflect our history? What are the ignored stories that reflect who we are more than our own imperfect narratives? This lab is an analysis of history, an untold history, that can express who we are better than our own understanding of who we are. It asks not what can we give, but what can we receive; what can we see to become more understanding of the world at large. Share an untold story about your community.",
         video: "https://player.vimeo.com/video/288107537",
         country: "Taiwan",
-        directed: "Angela Chen"
+        directed: "Angela Chen",
+        siteTitle: 'FVFF | Boa Bei',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -85,7 +109,11 @@ module.exports = {
         length: "10 min",
         year: "2016",
         country: "Iraq, Italy, UAE",
-        directed: "Ali Kareem Obaid"
+        directed: "Ali Kareem Obaid",
+        siteTitle: 'FVFF | Crisis',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -98,7 +126,11 @@ module.exports = {
         length: "7 min",
         year: "2017",
         country: "UK",
-        directed: "Adam Kes Hipkin and Dan Patrick Hipkin"
+        directed: "Adam Kes Hipkin and Dan Patrick Hipkin",
+        siteTitle: 'FVFF | Criteria',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -111,7 +143,11 @@ module.exports = {
         length: "11 min",
         year: "2014",
         country: "Spain",
-        directed: "Pedro Solís García"
+        directed: "Pedro Solís García",
+        siteTitle: 'FVFF | Cuerdas',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -124,7 +160,11 @@ module.exports = {
         length: "10 min",
         year: "2017",
         country: "India",
-        directed: "Somnath Pal"
+        directed: "Somnath Pal",
+        siteTitle: 'FVFF | Death of a Father',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -137,7 +177,11 @@ module.exports = {
         length: "12 min",
         year: "2017",
         country: "Canada, India, Pakistan",
-        directed: "Akreta Saim"
+        directed: "Akreta Saim",
+        siteTitle: 'FVFF | Fatima',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -150,7 +194,11 @@ module.exports = {
         length: "23 min",
         year: "2016",
         country: "Canada",
-        directed: "Tanya Maryniak"
+        directed: "Tanya Maryniak",
+        siteTitle: 'FVFF | Forgotten Huts',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -163,7 +211,11 @@ module.exports = {
         length: "12 min",
         year: "2016",
         country: "Peru",
-        directed: "Rosa Maria Santisteban"
+        directed: "Rosa Maria Santisteban",
+        siteTitle: 'FVFF | Goodbye',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -176,7 +228,11 @@ module.exports = {
         length: "20 min",
         year: "2017",
         country: "Italy",
-        directed: "Federico Cappabianca"
+        directed: "Federico Cappabianca",
+        siteTitle: 'FVFF | Il Signor Acciaio',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -189,7 +245,11 @@ module.exports = {
         length: "3 min",
         year: "2018",
         country: "Italy",
-        directed: "Stefano Bertelli"
+        directed: "Stefano Bertelli",
+        siteTitle: 'FVFF | In The Way Home',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -202,7 +262,11 @@ module.exports = {
         length: "23 min",
         year: "2017",
         country: "Canada",
-        directed: "Rob Kelly, Mark Chow, Tanya Maryniak"
+        directed: "Rob Kelly, Mark Chow, Tanya Maryniak",
+        siteTitle: 'FVFF | In Three Years',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -215,7 +279,11 @@ module.exports = {
         length: "10 min",
         year: "2018",
         country: "France",
-        directed: "Myriam de Beaurepaire"
+        directed: "Myriam de Beaurepaire",
+        siteTitle: 'FVFF | Jesus the Gift of a Life',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -228,7 +296,11 @@ module.exports = {
         length: "14 min",
         year: "2017",
         country: "Spain",
-        directed: "Hugo Gómez"
+        directed: "Hugo Gómez",
+        siteTitle: 'FVFF | La Leccion',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -238,7 +310,11 @@ module.exports = {
         description: "Why do we celebrate the art that is honored in this world? How do we discriminate against the poor and how can we make an effort to stop our prejudice and approach each individual as unique and valuable regardless of the money in their wallets? This film will challenge the notion that only the elite or educated can create important works of art delving into the underbelly of Los Angeles where artists refuse to be silenced despite not having the resources of so many others. 3 documentary portraits, each following a Los Angeles-based artist living below the federal HUD low-income line.",
         video: "https://player.vimeo.com/video/288107537",
         country: "USA",
-        directed: "Yumiko Fujiwara"
+        directed: "Yumiko Fujiwara",
+        siteTitle: 'FVFF | LA Thrive',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -251,7 +327,11 @@ module.exports = {
         length: "8 min",
         year: "2017",
         country: "USA",
-        directed: "Joan and Martin Dominguez Ball"
+        directed: "Joan and Martin Dominguez Ball",
+        siteTitle: 'FVFF | Ladies of Charity',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -264,7 +344,11 @@ module.exports = {
         length: "14 min",
         year: "2016",
         country: "Syria, France, Jordan",
-        directed: "Rana Kazkaz, Anas Khalaf"
+        directed: "Rana Kazkaz, Anas Khalaf",
+        siteTitle: 'FVFF | Mare Nostrum',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -277,7 +361,11 @@ module.exports = {
         length: "16 min",
         year: "2017",
         country: "India",
-        directed: "Racha Rakesh"
+        directed: "Racha Rakesh",
+        siteTitle: 'FVFF | Murga',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -290,7 +378,11 @@ module.exports = {
         length: "15min",
         year: "2017",
         country: "France, Germany",
-        directed: "Britta Potthoff & Adrien Pavie"
+        directed: "Britta Potthoff & Adrien Pavie",
+        siteTitle: 'FVFF | My Father the Fish',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -303,7 +395,11 @@ module.exports = {
         length: "24 min",
         year: "2016",
         country: "France and Benin",
-        directed: "Simon Panay"
+        directed: "Simon Panay",
+        siteTitle: 'FVFF | Nobody Dies Here',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -316,7 +412,11 @@ module.exports = {
         length: "15 min",
         year: "2017",
         country: "Switzerland, France",
-        directed: "Christophe M. Saber"
+        directed: "Christophe M. Saber",
+        siteTitle: 'FVFF | Sacrilege',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -329,7 +429,11 @@ module.exports = {
         length: "19 min",
         year: "2017",
         country: "France",
-        directed: "Charlotte Karas, Thierry Le Mer"
+        directed: "Charlotte Karas, Thierry Le Mer",
+        siteTitle: 'FVFF | Sons of',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -342,7 +446,11 @@ module.exports = {
         length: "32 min",
         year: "2018",
         country: "Greece",
-        directed: "Yorgos Zois"
+        directed: "Yorgos Zois",
+        siteTitle: 'FVFF | Third Kind',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -355,7 +463,11 @@ module.exports = {
         length: "3 min",
         year: "2017",
         country: "USA, Honduras",
-        directed: "Brad Coley"
+        directed: "Brad Coley",
+        siteTitle: 'FVFF | The Bird Painter',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -368,7 +480,11 @@ module.exports = {
         length: "7 min",
         year: "2018",
         country: "Thailand",
-        directed: "Tod Polson"
+        directed: "Tod Polson",
+        siteTitle: 'FVFF | The Prodigal',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -381,7 +497,11 @@ module.exports = {
         length: "2 min",
         year: "2018",
         country: "Pakistan",
-        directed: "Shumaila Kanwa"
+        directed: "Shumaila Kanwa",
+        siteTitle: "FVFF | They Won't Let a Dream",
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -394,7 +514,11 @@ module.exports = {
         length: "3 min",
         year: "2018",
         country: "USA",
-        directed: "Delana Lewis"
+        directed: "Delana Lewis",
+        siteTitle: 'FVFF | This is not a PSA',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
 
       }
     },
@@ -408,7 +532,11 @@ module.exports = {
         length: "89 min",
         year: "2017",
         country: "USA, Honduras",
-        directed: "Brad Coley"
+        directed: "Brad Coley",
+        siteTitle: 'FVFF | Voices Beyond the Wall',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     },
     {
@@ -418,7 +546,11 @@ module.exports = {
         description: "Most people don’t associate segregation with the West Coast, let alone one of the biggest tourist destinations in the world. Why is that? Institutional racism has had it’s tendrils in Vegas for decades, and the effects of which are still being felt today.",
         video: "https://player.vimeo.com/video/288107537",
         country: "USA",
-        directed: "Johann Rucker & Vince Briscoe"
+        directed: "Johann Rucker & Vince Briscoe",
+        siteTitle: 'FVFF | Westside',
+        ogImage: '',
+        ogUrl: '',
+        ogType: 'video.movie'
       }
     }
   ]

@@ -14,9 +14,18 @@ export default class Film extends React.Component {
     if (typeof this.props.selectedFilm !== 'undefined') {
       filmObj = this.props.selectedFilm
     }
+    const { siteTitle, description, ogTitle, ogUrl, ogImage, ogType } = filmObj
+    const props = {
+      title: siteTitle,
+      description,
+      ogTitle,
+      ogUrl,
+      ogImage,
+      ogType
+    }
     return (
       <Fragment>
-        <HeadComponent title={`Film | ${filmObj.title}`} />
+        <HeadComponent  {...props} />
         <NavbarComponent />
         <FilmDetailsComponent {...filmObj} />
       </Fragment>

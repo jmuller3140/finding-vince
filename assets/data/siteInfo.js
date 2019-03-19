@@ -37,6 +37,48 @@ module.exports = {
       iconClassName: "fa fa-envelope"
     }
   ],
+  pageInfo: {
+    'About': {
+      title: 'FVFF | About',
+      description: '',
+      ogTitle: '',
+      ogImage: '',
+      ogUrl: '',
+      ogType: 'website'
+    },
+    'Artists': {
+      title: 'FVFF | Artists',
+      description: '',
+      ogTitle: '',
+      ogImage: '',
+      ogUrl: '',
+      ogType: 'website'
+    },
+    'Contact': {
+      title: 'FVFF | Contact',
+      description: '',
+      ogTitle: '',
+      ogImage: '',
+      ogUrl: '',
+      ogType: 'website'
+    },
+    'Media': {
+      title: 'FVFF | Media',
+      description: '',
+      ogTitle: '',
+      ogImage: '',
+      ogUrl: '',
+      ogType: 'website'
+    },
+    'Home': {
+      title: 'FVFF | Home',
+      description: '',
+      ogTitle: '',
+      ogImage: '',
+      ogUrl: '',
+      ogType: 'website'
+    }
+  },
   copyright: "Copyright © 2018. Advanced User", // Copyright string for the footer of the website and RSS feed.
   themeColor: "#c62828", // Used for setting manifest and progress theme colors.
   backgroundColor: "#e0e0e0", // Used for setting manifest background color.
