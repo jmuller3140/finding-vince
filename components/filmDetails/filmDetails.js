@@ -1,8 +1,9 @@
 import React from 'react'
+import './style.scss'
 
 const FilmDetailsComponent = ({ title, description, length, video, type, year, country, directed }) => {
   return (
-    <div>
+    <div className='project-container.text'>
       {title}
       {description}
       {length}
@@ -16,4 +17,3 @@ const FilmDetailsComponent = ({ title, description, length, video, type, year, c
 }
 
 export default FilmDetailsComponent
-

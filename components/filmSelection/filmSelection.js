@@ -1,5 +1,6 @@
 import films from '../../assets/data/filmInfo'
 import Link from 'next/link'
+import './style.scss'
 const FilmSelectionComponent = () => {
   return (
     films.filmInfo.map((film, idx) => {

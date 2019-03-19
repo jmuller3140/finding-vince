@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { Fragment } from 'react'
 import { withRouter } from 'next/router'
-
+import './style.scss'
 const NavbarComponent = withRouter(props => {
   const pages = [
     {
@@ -27,25 +27,31 @@ const NavbarComponent = withRouter(props => {
   ]
 
   return (
-    <Fragment>
-      {
-        pages.map((page, idx) => {
-          if (props.router.route === page.url) {
-            return (
-              <h1 key={idx}>{page.title}</h1>
-            )
-          }
-          else {
-            return (
-              <Link href={page.url} key={idx}>
-                <a>{page.title}</a>
-              </Link>
-            )
-          }
-        })
-      }
-    </Fragment>
+    <div className='flex align-center'>
+      <div className='flex justify-center w-50'>
+        LOGO
+      </div>
+      <div className='flex justify-between align-center w-50'>
+        {
+          pages.map((page, idx) => {
+            if (props.router.route === page.url) {
+              return (
+                <h1 key={idx}>{page.title}</h1>
+              )
+            }
+            else {
+              return (
+                <Link href={page.url} key={idx}>
+                  <a >{page.title}</a>
+                </Link>
+              )
+            }
+          })
+        }
+      </div>
+    </div>
   )
 })
 
 export default NavbarComponent
+

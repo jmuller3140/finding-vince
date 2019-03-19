@@ -1,5 +1,5 @@
 import { Fragment } from 'react'
-import { NavbarComponent, HeadComponent } from '../components'
+import { NavbarComponent, HeadComponent, ContactContentComponent, FooterComponent } from '../components'
 import SiteInfo from '../assets/data/siteInfo'
 const Contact = () => {
   const { title, description, ogTitle, ogUrl, ogImage, ogType } = SiteInfo.pageInfo['Contact']
@@ -15,6 +15,8 @@ const Contact = () => {
     <Fragment>
       <HeadComponent {...props} />
       <NavbarComponent />
+      <ContactContentComponent />
+      <FooterComponent />
     </Fragment>
   )
 }

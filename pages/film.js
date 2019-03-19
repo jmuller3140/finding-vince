@@ -1,6 +1,6 @@
 import React from 'react'
 import { Fragment } from 'react'
-import { NavbarComponent, HeadComponent, FilmDetailsComponent } from '../components'
+import { NavbarComponent, HeadComponent, FilmDetailsComponent, FooterComponent } from '../components'
 import { getFilmInstance } from '../components/utils'
 export default class Film extends React.Component {
 
@@ -28,6 +28,7 @@ export default class Film extends React.Component {
         <HeadComponent  {...props} />
         <NavbarComponent />
         <FilmDetailsComponent {...filmObj} />
+        <FooterComponent />
       </Fragment>
     )
   }
