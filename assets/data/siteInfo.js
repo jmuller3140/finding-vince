@@ -44,7 +44,21 @@ module.exports = {
       ogTitle: '',
       ogImage: '',
       ogUrl: '',
-      ogType: 'website'
+      ogType: 'website',
+      bannerTitle: 'About Us',
+      bannerImg: '',
+      sections: [{
+        title: 'Who are we?',
+        description: "Finding Vince 400 is a competition and festival for people of all voices. It is inspired by the 400th Anniversary of the charism of St. Vincent DePaul. Finding Vince 400 is part of the the Vincentian Family's Initiative to globalize charity."
+      },
+      {
+        title: 'Mission',
+        description: "Champion 21st century storytellers and challenge audiences with films that change our perspective on poverty in our communityies. We spark our imaginations by sharing the charism through creativity that is inspired by the Vincentian mission to globalize charity."
+      },
+      {
+        title: 'The Team',
+        description: 'Who are we?'
+      }]
     },
     'Artists': {
       title: 'FVFF | Artists',
@@ -52,7 +66,26 @@ module.exports = {
       ogTitle: '',
       ogImage: '',
       ogUrl: '',
-      ogType: 'website'
+      ogType: 'website',
+      bannerTitle: 'Artists',
+      bannerImg: '',
+      sections: [{
+        title: 'Seeds of Hope Competition',
+        description: "All those under the age of 18 are invited to create seeds of hope, we call upon you to utilize any creative expression" +
+          "(story, poetry, image, sculpture, music, etc.) that inspires direct service to the poor. Jury-selected artists will be invited to the festival " +
+          "and awarded a trip to  Castel Gondolfo, Italy, from Octover 18-21, 2018. <br />" +
+          "Please upload a video, image or document that best showcases your artwork.<br /> Due by 8/31/18, submit through email at submit@fv400@org or at fv400.org"
+      },
+      {
+        title: 'Screenwriting Competition',
+        description: ""
+      },
+      {
+        title: 'Feature or Short Competition',
+        description: "You are invited to submit your feature film or short to Finding Vince 400. The jury will select films that inspire a direct service " +
+          "to the poor and change our perspecitive on poverty. These films will premiere at Castel Gondolfo, Italy from October 18-21, 2018. " +
+          "Jury selected artists will be invited and awawrded a trip to this event. Due by 8/31/18, submit at FV400.org"
+      }]
     },
     'Contact': {
       title: 'FVFF | Contact',
@@ -60,7 +93,21 @@ module.exports = {
       ogTitle: '',
       ogImage: '',
       ogUrl: '',
-      ogType: 'website'
+      ogType: 'website',
+      bannerTitle: 'Contact',
+      bannerImg: '',
+      sections: [{
+        title: 'Who are we?',
+        description: "Finding Vince 400 is a competition and festival for people of all voices. It is inspired by the 400th Anniversary of the charism of St. Vincent DePaul. Finding Vince 400 is part of the the Vincentian Family's Initiative to globalize charity."
+      },
+      {
+        title: 'Mission',
+        description: "Champion 21st century storytellers and challenge audiences with films that change our perspective on poverty in our communityies. We spark our imaginations by sharing the charism through creativity that is inspired by the Vincentian mission to globalize charity."
+      },
+      {
+        title: 'The Team',
+        description: 'Who are we?'
+      }]
     },
     'Media': {
       title: 'FVFF | Media',
@@ -68,7 +115,21 @@ module.exports = {
       ogTitle: '',
       ogImage: '',
       ogUrl: '',
-      ogType: 'website'
+      ogType: 'website',
+      bannerTitle: 'Media',
+      bannerImg: '',
+      sections: [{
+        title: 'Who are we?',
+        description: "Finding Vince 400 is a competition and festival for people of all voices. It is inspired by the 400th Anniversary of the charism of St. Vincent DePaul. Finding Vince 400 is part of the the Vincentian Family's Initiative to globalize charity."
+      },
+      {
+        title: 'Mission',
+        description: "Champion 21st century storytellers and challenge audiences with films that change our perspective on poverty in our communityies. We spark our imaginations by sharing the charism through creativity that is inspired by the Vincentian mission to globalize charity."
+      },
+      {
+        title: 'The Team',
+        description: 'Who are we?'
+      }]
     },
     'Home': {
       title: 'FVFF | Home',
@@ -76,7 +137,21 @@ module.exports = {
       ogTitle: '',
       ogImage: '',
       ogUrl: '',
-      ogType: 'website'
+      ogType: 'website',
+      bannerTitle: 'Home',
+      bannerImg: '',
+      sections: [{
+        title: 'Who are we?',
+        description: "Finding Vince 400 is a competition and festival for people of all voices. It is inspired by the 400th Anniversary of the charism of St. Vincent DePaul. Finding Vince 400 is part of the the Vincentian Family's Initiative to globalize charity."
+      },
+      {
+        title: 'Mission',
+        description: "Champion 21st century storytellers and challenge audiences with films that change our perspective on poverty in our communityies. We spark our imaginations by sharing the charism through creativity that is inspired by the Vincentian mission to globalize charity."
+      },
+      {
+        title: 'The Team',
+        description: 'Who are we?'
+      }]
     }
   },
   copyright: "Copyright © 2018. Advanced User", // Copyright string for the footer of the website and RSS feed.

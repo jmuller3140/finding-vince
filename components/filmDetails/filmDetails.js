@@ -3,7 +3,7 @@ import './style.scss'
 
 const FilmDetailsComponent = ({ title, description, length, video, type, year, country, directed }) => {
   return (
-    <div className='project-container.text'>
+    <div className=''>
       {title}
       {description}
       {length}
