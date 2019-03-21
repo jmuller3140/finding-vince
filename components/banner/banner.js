@@ -1,12 +1,13 @@
 import React from 'react'
 import './style.scss'
 
-const BannerComponent = ({ img, title }) => {
+const BannerComponent = ({ bannerUrl, title }) => {
   const style = {
-    backgroundImage: img
+    backgroundImage: `url('${bannerUrl}')`,
+    height: '200px'
   }
   return (
-    <div style={style}>
+    <div style={style} className='flex justify-center align-center h-15'>
       {title}
     </div>
   )

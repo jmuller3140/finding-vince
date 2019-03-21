@@ -21,4 +21,9 @@
 }
 a {
   font-size: 12pt;
+  text-decoration: none;
+  color: silver;
+  &:hover{
+    color: yellowgreen;
+  }
 }

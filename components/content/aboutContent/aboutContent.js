@@ -12,7 +12,7 @@ const AboutContentComponent = () => {
         {
           sections.map((section, idx) => {
             return (
-              <DescriptionComponent title={section.title} description={section.description} />
+              <DescriptionComponent title={section.title} description={section.description} key={idx} />
             )
           })
         }

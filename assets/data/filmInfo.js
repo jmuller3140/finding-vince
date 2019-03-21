@@ -14,7 +14,9 @@ module.exports = {
         siteTitle: 'FVFF | A Little Wisdom',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/wisdom-thumb.jpg',
+        bannerUrl: '/static/pics/a_little_wisdom.jpg'
       }
     },
     {
@@ -31,7 +33,9 @@ module.exports = {
         siteTitle: 'FVFF | Lovers of the Night',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/lovers-of-the-night-thumb.jpg',
+        bannerUrl: '/static/pics/lovers_of_the_night.jpg'
       }
     },
     {
@@ -48,7 +52,9 @@ module.exports = {
         siteTitle: 'FVFF | Red de Libertad',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/red-de-libertad-thumb.jpg',
+        bannerUrl: '/static/pics/red_de_libertad.jpg'
       }
     },
     {
@@ -65,7 +71,9 @@ module.exports = {
         siteTitle: 'FVFF | Aazar',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/aazar-thumb.jpg',
+        bannerUrl: '/static/pics/aazar.jpg'
       }
     },
     {
@@ -82,7 +90,9 @@ module.exports = {
         siteTitle: 'FVFF | Ainhoa',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/ainhoa-thumb.jpg',
+        bannerUrl: '/static/pics/ainhoa.jpg'
       }
     },
     {
@@ -96,7 +106,9 @@ module.exports = {
         siteTitle: 'FVFF | Boa Bei',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/bao-bei-thumb.jpg',
+        bannerUrl: '/static/pics/bao_bei.jpg'
       }
     },
     {
@@ -113,7 +125,9 @@ module.exports = {
         siteTitle: 'FVFF | Crisis',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/crisis-thumb.jpg',
+        bannerUrl: '/static/pics/crisis.jpg'
       }
     },
     {
@@ -130,7 +144,9 @@ module.exports = {
         siteTitle: 'FVFF | Criteria',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/criteria-thumb.jpg',
+        bannerUrl: '/static/pics/criteria.jpg'
       }
     },
     {
@@ -147,7 +163,9 @@ module.exports = {
         siteTitle: 'FVFF | Cuerdas',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/cuerdas-thumb.jpg',
+        bannerUrl: '/static/pics/cuerdas.jpg'
       }
     },
     {
@@ -164,7 +182,9 @@ module.exports = {
         siteTitle: 'FVFF | Death of a Father',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/death-father-thumb.jpg',
+        bannerUrl: '/static/pics/death_of_a_father.jpg'
       }
     },
     {
@@ -181,7 +201,9 @@ module.exports = {
         siteTitle: 'FVFF | Fatima',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/fatima-thumb.jpg',
+        bannerUrl: '/static/pics/fatima.jpg'
       }
     },
     {
@@ -198,7 +220,9 @@ module.exports = {
         siteTitle: 'FVFF | Forgotten Huts',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/forgotten-huts-thumb.jpg',
+        bannerUrl: '/static/pics/forgotton_huts.jpg'
       }
     },
     {
@@ -215,7 +239,9 @@ module.exports = {
         siteTitle: 'FVFF | Goodbye',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/goodbye-thumb.jpg',
+        bannerUrl: '/static/pics/goodbye.jpg'
       }
     },
     {
@@ -232,7 +258,9 @@ module.exports = {
         siteTitle: 'FVFF | Il Signor Acciaio',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/il-signor-acciaio-thumb.jpg',
+        bannerUrl: '/static/pics/il-signor-acciaio.jpg'
       }
     },
     {
@@ -249,7 +277,9 @@ module.exports = {
         siteTitle: 'FVFF | In The Way Home',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/in-the-way-home-thumb.jpg',
+        bannerUrl: '/static/pics/in_the_way_home.jpg'
       }
     },
     {
@@ -266,7 +296,9 @@ module.exports = {
         siteTitle: 'FVFF | In Three Years',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/in-three-years-thumb.jpg',
+        bannerUrl: '/static/pics/in_three_years.jpg'
       }
     },
     {
@@ -283,7 +315,9 @@ module.exports = {
         siteTitle: 'FVFF | Jesus the Gift of a Life',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/jesus-the-gift-of-a-life-thumb.jpg',
+        bannerUrl: '/static/pics/jesus_the_gift_of_a_life.jpg'
       }
     },
     {
@@ -300,7 +334,9 @@ module.exports = {
         siteTitle: 'FVFF | La Leccion',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/la-leccion-thumb.jpg',
+        bannerUrl: '/static/pics/La_leccion.jpg'
       }
     },
     {
@@ -314,7 +350,9 @@ module.exports = {
         siteTitle: 'FVFF | LA Thrive',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/la-thrive-thumb.jpg',
+        bannerUrl: '/static/pics/la_thrive.jpg'
       }
     },
     {
@@ -331,7 +369,9 @@ module.exports = {
         siteTitle: 'FVFF | Ladies of Charity',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/ladies-of-charity-thumb.jpg',
+        bannerUrl: '/static/pics/ladies_of_charity.jpg'
       }
     },
     {
@@ -348,7 +388,9 @@ module.exports = {
         siteTitle: 'FVFF | Mare Nostrum',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/Mare-nostrum-thumb.jpg',
+        bannerUrl: '/static/pics/Mare_nostrum.jpg'
       }
     },
     {
@@ -365,7 +407,9 @@ module.exports = {
         siteTitle: 'FVFF | Murga',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/murga-thumb.jpg',
+        bannerUrl: '/static/pics/murga.jpg'
       }
     },
     {
@@ -382,7 +426,9 @@ module.exports = {
         siteTitle: 'FVFF | My Father the Fish',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/my-father-the-fish-thumb.jpg',
+        bannerUrl: '/static/pics/my_father_the_fish.jpg'
       }
     },
     {
@@ -399,7 +445,9 @@ module.exports = {
         siteTitle: 'FVFF | Nobody Dies Here',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/nobody-dies-here-thumb.jpg',
+        bannerUrl: '/static/pics/nobody_dies_here.jpg'
       }
     },
     {
@@ -416,7 +464,9 @@ module.exports = {
         siteTitle: 'FVFF | Sacrilege',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/sacrilege-thumb.jpg',
+        bannerUrl: '/static/pics/sacrilege.jpg'
       }
     },
     {
@@ -433,7 +483,9 @@ module.exports = {
         siteTitle: 'FVFF | Sons of',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/son-of-thumb.jpg',
+        bannerUrl: 'son_of'
       }
     },
     {
@@ -450,7 +502,9 @@ module.exports = {
         siteTitle: 'FVFF | Third Kind',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/third-kind-thumb.jpg',
+        bannerUrl: '/static/pics/third_kind.jpg'
       }
     },
     {
@@ -467,7 +521,9 @@ module.exports = {
         siteTitle: 'FVFF | The Bird Painter',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/the-bird-painter-thumb.jpg',
+        bannerUrl: '/static/pics/the_bird_painter.jpg'
       }
     },
     {
@@ -484,7 +540,9 @@ module.exports = {
         siteTitle: 'FVFF | The Prodigal',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/the-prodigal-thumb.jpg',
+        bannerUrl: '/static/pics/the_prodigal.jpg'
       }
     },
     {
@@ -501,7 +559,9 @@ module.exports = {
         siteTitle: "FVFF | They Won't Let a Dream",
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/They-wont-let-a-dream-thumb.jpg',
+        bannerUrl: '/static/pics/They_wont_let_a_dream.jpg'
       }
     },
     {
@@ -518,7 +578,9 @@ module.exports = {
         siteTitle: 'FVFF | This is not a PSA',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/This-is-not-a-psa-thumb.jpg',
+        bannerUrl: '/static/pics/This_is_not_a_psa.jpg'
 
       }
     },
@@ -536,7 +598,9 @@ module.exports = {
         siteTitle: 'FVFF | Voices Beyond the Wall',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/voices-beyond-the-wall-thumb.jpg',
+        bannerUrl: '/static/pics/voices_beyond_the_wall.jpg'
       }
     },
     {
@@ -550,7 +614,9 @@ module.exports = {
         siteTitle: 'FVFF | Westside',
         ogImage: '',
         ogUrl: '',
-        ogType: 'video.movie'
+        ogType: 'video.movie',
+        picUrl: '/static/pics/westside-thumb.jpg',
+        bannerUrl: '/static/pics/westside.jpg'
       }
     }
   ]

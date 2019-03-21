@@ -1,6 +1,6 @@
 import React from 'react'
 import { Fragment } from 'react'
-import { NavbarComponent, HeadComponent, FilmDetailsComponent, FooterComponent } from '../components'
+import { NavbarComponent, HeadComponent, FilmDetailsComponent, FooterComponent, BannerComponent } from '../components'
 import { getFilmInstance } from '../components/utils'
 export default class Film extends React.Component {
 
@@ -14,19 +14,24 @@ export default class Film extends React.Component {
     if (typeof this.props.selectedFilm !== 'undefined') {
       filmObj = this.props.selectedFilm
     }
-    const { siteTitle, description, ogTitle, ogUrl, ogImage, ogType } = filmObj
-    const props = {
+    const { siteTitle, title, bannerUrl, description, ogTitle, ogUrl, ogImage, ogType } = filmObj
+    const headProps = {
       title: siteTitle,
       description,
       ogTitle,
       ogUrl,
       ogImage,
-      ogType
+      ogType,
+    }
+    const filmProps = {
+      title,
+      bannerUrl
     }
     return (
       <Fragment>
-        <HeadComponent  {...props} />
+        <HeadComponent  {...headProps} />
         <NavbarComponent />
+        <BannerComponent {...filmProps} />
         <FilmDetailsComponent {...filmObj} />
         <FooterComponent />
       </Fragment>
