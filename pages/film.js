@@ -6,11 +6,11 @@ export default class Film extends React.Component {
 
   static async getInitialProps({ query }) {
     const filmInstance = getFilmInstance(query)
+    console.log(query)
     return { selectedFilm: filmInstance }
   }
   render() {
     let filmObj = {}
-    console.log(this.props.selectedFilm)
     if (typeof this.props.selectedFilm !== 'undefined') {
       filmObj = this.props.selectedFilm
     }

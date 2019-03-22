@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import { Fragment } from 'react'
 import { withRouter } from 'next/router'
 import './style.scss'
 const NavbarComponent = withRouter(props => {
@@ -41,8 +40,8 @@ const NavbarComponent = withRouter(props => {
             }
             else {
               return (
-                <Link href={page.url} key={idx}>
-                  <a >{page.title}</a>
+                <Link prefetch href={page.url} key={idx} passHref>
+                  <a>{page.title}</a>
                 </Link>
               )
             }

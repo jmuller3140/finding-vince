@@ -12,8 +12,8 @@ const FilmSelectionComponent = () => {
       {films.filmInfo.map((film, idx) => {
         const values = Object.values(film)[0]
         return (
-          <div className='picture-coverage'>
-            <FilmComponent id={values._id} picUrl={values.picUrl} title={values.title} key={idx} />
+          <div className='picture-coverage' key={idx}>
+            <FilmComponent id={values._id} picUrl={values.picUrl} title={values.title} />
           </div>
         )
       })

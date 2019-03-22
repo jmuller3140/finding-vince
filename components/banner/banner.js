@@ -1,9 +1,9 @@
 import React from 'react'
 import './style.scss'
 
-const BannerComponent = ({ bannerUrl, title }) => {
+const BannerComponent = ({ img, title }) => {
   const style = {
-    backgroundImage: `url('${bannerUrl}')`,
+    backgroundImage: `url('${img}')`,
     height: '200px'
   }
   return (

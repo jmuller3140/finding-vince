@@ -12,6 +12,7 @@ const About = () => {
     ogImage,
     ogType
   }
+
   return (
     <Fragment>
       <HeadComponent {...props} />
