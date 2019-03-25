@@ -25,7 +25,7 @@ export default class Film extends React.Component {
     }
     const filmProps = {
       title,
-      bannerUrl
+      img: bannerUrl
     }
     return (
       <Fragment>

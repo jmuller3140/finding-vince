@@ -9,15 +9,15 @@ const FilmSelectionComponent = () => {
   return (
     <Fragment>
       <BannerComponent title={bannerTitle} img={bannerImg} />
-      {films.filmInfo.map((film, idx) => {
-        const values = Object.values(film)[0]
-        return (
-          <div className='picture-coverage' key={idx}>
-            <FilmComponent id={values._id} picUrl={values.picUrl} title={values.title} />
-          </div>
-        )
-      })
-      }
+      <div className='film-container'>
+        {films.filmInfo.map((film, idx) => {
+          const values = Object.values(film)[0]
+          return (
+              <FilmComponent id={values._id} picUrl={values.picUrl} title={values.title} />
+          )
+        })
+        }
+      </div>
     </Fragment>
   )
 }
