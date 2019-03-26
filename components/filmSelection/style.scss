@@ -1,8 +1,19 @@
-.film-container{
+.films-container{
   width:100%;
   display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 6rem;
+  padding-bottom:4rem;
+}
+.films-content-container{
+  width:60%;
+  flex-direction: row;
+  display:flex;
   justify-content: space-around;
-  flex-wrap: wrap
+  flex-wrap:wrap;
+  padding: 2rem;
+  background-color:#CDCDCD;
 }
 .w-100{
   width:100%;

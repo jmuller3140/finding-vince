@@ -4,6 +4,18 @@
     flex-direction: column;
     align-items: center;
     width:100%;
-    padding-top:2rem;
-    padding-bottom: 2rem;
+    margin-top: 6rem;
+    padding-bottom:4rem;
+}
+.detail-wrapper{
+    display:flex;
+    width:960px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.detail{
+    padding-top:1rem;
+    padding-bottom:1rem;
+    font-size:15pt;
 }

@@ -8,7 +8,7 @@ import 'normalize.css'
 const FooterComponent = () => {
 
   return (
-    <div>
+    <div className='footer-container'>
       <div className='icon-container'>
         <div className='icon-wrapper'>
           <a className='icon' href="https://www.facebook.com/jimmy.muller.7140" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
@@ -16,9 +16,6 @@ const FooterComponent = () => {
           <a className='icon' href="http://www.linkedin.com/in/james-muller3140" target="_blank"><FontAwesomeIcon icon={faVimeo} /></a>
           <a className='icon' href="https://github.com/jmuller3140" target="_blank"><FontAwesomeIcon icon={faYoutube} /></a>
           <a className='icon' href="https://github.com/jmuller3140" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
-        </div>
-        <div>
-          Made in 2018 <FontAwesomeIcon icon={faCopyright} />
         </div>
       </div>
     </div>

@@ -3,13 +3,17 @@ import Link from 'next/link'
 import './style.scss'
 const FilmComponent = ({ id, picUrl, title }) => {
   return (
-    <div className='link-container'>
-      <Link href={`/film?id=${id}`} as={`/film/${id}`} >
-        <div className='image-container'>
-          <img src={picUrl} className='image' height='200px' width='200px' />
+    <div className='film-container'>
+      <div className='film-content'>
+        <Link href={`/film?id=${id}`} as={`/film/${id}`} >
+          <div className='overflow-hidden'>
+            <img src={picUrl} className='image' />
+          </div>
+        </Link>
+        <div className='title'>
           {title}
         </div>
-      </Link>
+      </div>
     </div>
   )
 }

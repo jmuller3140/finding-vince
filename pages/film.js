@@ -23,15 +23,10 @@ export default class Film extends React.Component {
       ogImage,
       ogType,
     }
-    const filmProps = {
-      title,
-      img: bannerUrl
-    }
     return (
       <Fragment>
         <HeadComponent  {...headProps} />
         <NavbarComponent />
-        <BannerComponent {...filmProps} />
         <FilmDetailsComponent {...filmObj} />
         <FooterComponent />
       </Fragment>

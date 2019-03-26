@@ -7,18 +7,18 @@ import './style.scss'
 const FilmSelectionComponent = () => {
   const { bannerTitle, bannerImg } = SiteInfo.pageInfo['Media']
   return (
-    <Fragment>
+    <div className='films-container'>
       <BannerComponent title={bannerTitle} img={bannerImg} />
-      <div className='film-container'>
+      <div className='films-content-container'>
         {films.filmInfo.map((film, idx) => {
           const values = Object.values(film)[0]
           return (
-              <FilmComponent id={values._id} picUrl={values.picUrl} title={values.title} />
+            <FilmComponent id={values._id} picUrl={values.picUrl} title={values.title} key={idx} />
           )
         })
         }
       </div>
-    </Fragment>
+    </div>
   )
 }
 

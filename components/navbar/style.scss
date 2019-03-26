@@ -1,11 +1,21 @@
+.navbar{
+  position: fixed;
+  left:0;
+  top:0;
+  display:flex;
+  align-items: center;
+}
 .flex{
   display:flex
+}
+.direction-column{
+  flex-direction: column;
 }
 .justify-center{
   justify-content: center;
 }
-.justify-between{
-  justify-content: space-between
+.justify-around{
+  justify-content: space-around;
 }
 .align-center{
   align-items:center
@@ -16,8 +26,35 @@
 .w-50{
   width:50%
 }
+.w-100{
+  width:100%;
+}
 .w-75{
   width:75%
+}
+.mt-1{
+  margin-top: 1rem;
+}
+.mt-2{
+  margin-top: 2rem;
+}
+.mt-4{
+  margin-top: 4rem;
+}
+.pt-1{
+  padding-top: 1rem;
+}
+.pt-2{
+  padding-top: 2rem;
+}
+.pt-4{
+  padding-top: 4rem;
+}
+.background-white{
+  background-color:white;
+}
+.border-bottom{
+  border-bottom: 1px black solid;
 }
 a {
   font-size: 12pt;
@@ -26,4 +63,7 @@ a {
   &:hover{
     color: yellowgreen;
   }
+}
+.z-index{
+  z-index: 1000;
 }

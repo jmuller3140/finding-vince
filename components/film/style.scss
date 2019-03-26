@@ -1,14 +1,30 @@
+
+.film-container{
+    width:33%;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.film-content{
+    width:200px;
+}
 .link-container{
-    width:25%;
-    padding-left: 4%;
-    padding-right:4%;
+    overflow:hidden;
 }
 .image-container{
-    width:100%;
-    height:200px;
     overflow:hidden;
-    display: flex;
+    display:flex;
     justify-content: center;
+}
+.title{
+    text-align: center;
+}
+.overflow-hidden{
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    line-height: 0;
 }
 .image{
     max-width: 100%;

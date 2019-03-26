@@ -1,4 +1,14 @@
-
+.footer-container{
+  height: 10rem;
+  padding-top:2rem;
+  padding-bottom:2rem;
+  background-color: #29292A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 .icon {
   font-size: 25pt;
   color: silver;
@@ -8,13 +18,7 @@
 }
 .icon-wrapper{
   width:20rem;
+  height:inherit;
   display:flex;
   justify-content:space-around;
-}
-.icon-container{
-  display:flex;
-  justify-content: center;
-  flex-direction:column;
-  align-items:center;
-  background-color: #29292A;
 }

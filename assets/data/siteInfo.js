@@ -57,7 +57,7 @@ module.exports = {
       },
       {
         title: 'The Team',
-        description: 'Who are we?'
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus elit, sodales a mattis vitae, tempor nec urna. Duis aliquam risus ac viverra molestie. Aliquam quis ex est. Maecenas sit amet massa ut arcu rutrum aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum dictum turpis vel felis luctus dapibus. Quisque rutrum maximus pellentesque. Fusce et odio non risus tincidunt venenatis. Integer eleifend porta nisi eu finibus. Vivamus faucibus fermentum tellus, vitae cursus nibh dictum eu. Nam facilisis malesuada eros vitae tincidunt. Sed tincidunt metus a enim auctor, a sollicitudin lectus volutpat. Sed eget elit rhoncus diam luctus consectetur.'
       }]
     },
     'Artists': {
