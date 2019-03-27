@@ -1,5 +1,6 @@
 const withSass = require('@zeit/next-sass')
 const withCss = require('@zeit/next-css')
-module.exports = withSass(withCss(), {
+const withFonts = require('next-fonts');
+module.exports = withFonts(withSass(withCss(), {
   cssModules: true
-})
+}))

@@ -2,6 +2,7 @@ import React from 'react'
 import { Fragment } from 'react'
 import { NavbarComponent, HeadComponent, FilmDetailsComponent, FooterComponent, BannerComponent } from '../components'
 import { getFilmInstance } from '../components/utils'
+import '../assets/styles/style.scss'
 export default class Film extends React.Component {
 
   static async getInitialProps({ query }) {

@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { NavbarComponent, FilmSelectionComponent, HeadComponent, FooterComponent } from '../components'
 import SiteInfo from '../assets/data/siteInfo'
+import '../assets/styles/style.scss'
 const Media = () => {
   const { title, description, ogTitle, ogUrl, ogImage, ogType } = SiteInfo.pageInfo['Media']
   const props = {

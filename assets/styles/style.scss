@@ -1,4 +1,36 @@
-
 body{
   background-color:white
+}
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url('/static/fonts/Raleway-Bold.woff') format('woff'), 
+  url('/static/fonts/Raleway-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-display: auto;
+  font-style: normal;
+}
+@font-face {
+  font-family: Raleway-Regular;
+  src:url('/static/fonts/Raleway-Regular.woff') format('woff'), 
+  url('/static/fonts/Raleway-Regular.woff2}') format('woff2');
+  font-weight: bold;
+  font-display: auto;
+  font-style: normal;
+}
+@font-face {
+  font-family: Moon-Light;
+  src: url('/static/fonts/MoonLight.woff') format('woff'),
+  url('/static/fonts/MoonLight.woff2') format('woff2');
+  font-weight: bold;
+  font-display: auto;
+  font-style: normal;
+}
+@font-face {
+  font-family: Moon-Bold;
+  src: url('/static/fonts/MoonBold.woff') format('woff'),
+  url('/static/fonts/MoonBold.woff2') format('woff2');
+  font-weight: bold;
+  font-display: auto;
+  font-style: normal;
 }

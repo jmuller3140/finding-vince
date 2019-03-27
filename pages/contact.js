@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { NavbarComponent, HeadComponent, ContactContentComponent, FooterComponent } from '../components'
 import SiteInfo from '../assets/data/siteInfo'
+import '../assets/styles/style.scss'
 const Contact = () => {
   const { title, description, ogTitle, ogUrl, ogImage, ogType } = SiteInfo.pageInfo['Contact']
   const props = {
