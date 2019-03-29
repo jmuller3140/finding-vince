@@ -20,7 +20,7 @@ const HomeContentComponent = () => {
         <div className='second-panel'>
           <Zoom>
             <div className='des'>
-              We want to champion 21st century storytellers and challenge audiences with films that change our perspective on poverty in our communities. We spark our imaginations by sharing the charism through creativity that is inspired by the Vincentian mission to globalize charity.
+              We want to champion twenty-first century storytellers and challenge audiences with films that change our perspective on poverty in our communities. We spark our imaginations by sharing the charism through creativity that is inspired by the Vincentian mission to globalize charity.
           </div>
           </Zoom>
           <Zoom>

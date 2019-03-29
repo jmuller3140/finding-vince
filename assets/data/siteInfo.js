@@ -78,7 +78,7 @@ module.exports = {
       },
       {
         title: 'Screenwriting Competition',
-        description: ""
+        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam suscipit libero in enim rhoncus condimentum. Sed in bibendum nisl, quis volutpat nisi. Curabitur ut rutrum magna. Duis pharetra ligula in turpis imperdiet, nec dapibus nunc dictum. Ut tincidunt, lacus quis lacinia iaculis, magna arcu iaculis ante, sed volutpat felis nibh id quam. Pellentesque dignissim scelerisque velit, et dapibus dolor. Mauris est neque, posuere consectetur blandit a, mollis eu lectus. Nulla viverra ligula vel turpis mattis pellentesque. In vitae metus erat. Maecenas ut velit efficitur, egestas dolor nec, dapibus nulla. Donec sed porttitor nibh, ac feugiat leo. Maecenas in arcu a leo elementum aliquet sed vel urna. Suspendisse sodales, nisi vel laoreet feugiat, mauris eros suscipit ipsum, tristique commodo ante ligula a sem. Nullam ac magna sed odio dictum aliquet."
       },
       {
         title: 'Feature or Short Competition',

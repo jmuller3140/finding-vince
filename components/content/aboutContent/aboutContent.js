@@ -9,6 +9,11 @@ const AboutContentComponent = () => {
   return (
     <div className='about-container'>
       <BannerComponent title={bannerTitle} img={bannerImg} />
+      <div className='picture-holder'>
+        <img src='/static/pics/placeholder-image.jpg' alt='place-holder' height='150' width='200' />
+        <img src='/static/pics/placeholder-image.jpg' alt='place-holder' height='150' width='200' />
+        <img src='/static/pics/placeholder-image.jpg' alt='place-holder' height='150' width='200' />
+      </div>
       <div className='content-container'>
         {
           sections.map((section, idx) => {
