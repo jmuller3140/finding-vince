@@ -5,9 +5,55 @@
   justify-content: center;
   flex-wrap:wrap;
 }
-.content-container{
+.home-content-container{
   display:flex;
   flex-direction:column;
   justify-content: flex-start;
-  width: 65%;
+  width: 100%;
+}
+.first-panel{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height:50rem;
+}
+#first-panel-description{
+  position:absolute;
+  left:6em;
+  font-size:20pt;
+  top:600px;
+  background-color:#4d4d4d;
+  padding:1em;
+  width:45%;
+  color:white;
+  font-family: Raleway-Regular;
+  text-align:justify;
+}
+.second-panel{
+  display:flex;
+  width:100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.right-content{
+  width:100%;
+  background-image: url('/static/pics/poverty.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+}
+.video-showcase{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.des{
+  width:50%;
+  text-align:center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
 }

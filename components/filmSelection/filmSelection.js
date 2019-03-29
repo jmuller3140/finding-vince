@@ -2,21 +2,30 @@ import { Fragment } from 'react'
 import films from '../../assets/data/filmInfo'
 import SiteInfo from '../../assets/data/siteInfo'
 import { BannerComponent } from '../banner'
+import { DescriptionComponent } from '../description'
 import { FilmComponent } from '../film'
 import './style.scss'
 const FilmSelectionComponent = () => {
   const { bannerTitle, bannerImg } = SiteInfo.pageInfo['Media']
+  let featureFilms = [];
+  let shortFilms = [];
+  films.filmInfo.forEach((film, idx) => {
+    const values = Object.values(film)[0]
+    if (typeof values.type !== 'undefined') {
+      if (values.type.toLowerCase() === 'short film') {
+        shortFilms.push(<FilmComponent id={values._id} picUrl={values.picUrl} title={values.title} />)
+      }
+      else if (values.type.toLowerCase() === 'feature film') {
+        featureFilms.push(<FilmComponent id={values._id} picUrl={values.picUrl} title={values.title} />)
+      }
+    }
+  })
   return (
     <div className='films-container'>
       <BannerComponent title={bannerTitle} img={bannerImg} />
       <div className='films-content-container'>
-        {films.filmInfo.map((film, idx) => {
-          const values = Object.values(film)[0]
-          return (
-            <FilmComponent id={values._id} picUrl={values.picUrl} title={values.title} key={idx} />
-          )
-        })
-        }
+        <DescriptionComponent title='Feature Films' description={featureFilms} />
+        <DescriptionComponent title='Short Films' description={shortFilms} />
       </div>
     </div>
   )

@@ -6,16 +6,26 @@
     width:100%;
     margin-top: 6rem;
     padding-bottom:4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2rem;
+    font-display: justify;
 }
 .detail-wrapper{
     display:flex;
     width:960px;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap:wrap;
 }
 .detail{
-    padding-top:1rem;
-    padding-bottom:1rem;
+    margin:2rem;
     font-size:15pt;
+    text-align: center;
+}
+.detail-left{
+    text-align: left;
+}
+.details-content{
+    margin:2rem;
 }

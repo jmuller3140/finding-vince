@@ -8,12 +8,11 @@
 }
 .films-content-container{
   width:60%;
-  flex-direction: row;
+  flex-direction: column;
   display:flex;
-  justify-content: space-around;
-  flex-wrap:wrap;
   padding: 2rem;
-  background-color:#CDCDCD;
+  background-color:white;
+  margin:2rem;
 }
 .w-100{
   width:100%;

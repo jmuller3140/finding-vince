@@ -1,12 +1,13 @@
 
 .film-container{
-    width:33%;
     display:flex;
     flex-direction: column;
     justify-content:center;
-    align-items:center;
+    align-items:flex-start;
+    margin:1.5rem;
 }
 .film-content{
+    height:350px;
     width:200px;
 }
 .link-container{
@@ -19,6 +20,9 @@
 }
 .title{
     text-align: center;
+    margin-top:1rem;
+    font-size:12pt;
+    font-family: Raleway-Regular;
 }
 .overflow-hidden{
     overflow: hidden;
@@ -38,4 +42,43 @@
         -webkit-transform: scale(1.1);
         transform: scale(1.1);
     }
+}
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0,100px,0)
+    }
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0,100px,0);
+    }
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1;
+        margin-bottom:3rem;
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
 }
