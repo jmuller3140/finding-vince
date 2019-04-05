@@ -1,0 +1,14 @@
+.picture-display-container{
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.picture-display-content{
+  width:60%;
+  display:flex;
+  justify-content:space-around;
+}
+.picture{
+  margin:3rem;
+}

@@ -1,13 +1,18 @@
 import React, { Fragment } from 'react'
 import './style.scss'
-const DescriptionComponent = ({ title, description }) => {
+import Reveal from 'react-reveal/Reveal'
+import { getEffect } from '../utils'
+const DescriptionComponent = ({ title, description, style }) => {
+  const effect = getEffect(style)
   return (
-    <div className='description-container'>
-      <h1 className='description-title'>{title}</h1>
-      <div className='description-content'>
-        {description}
+    <Reveal effect={effect}>
+      <div className='description-container'>
+        <h1 className='description-title'>{title}</h1>
+        <div className='description-content'>
+          {description}
+        </div>
       </div>
-    </div>
+    </Reveal>
   )
 }
 

@@ -24,8 +24,8 @@ const FilmSelectionComponent = () => {
     <div className='films-container'>
       <BannerComponent title={bannerTitle} img={bannerImg} />
       <div className='films-content-container'>
-        <DescriptionComponent title='Feature Films' description={featureFilms} />
-        <DescriptionComponent title='Short Films' description={shortFilms} />
+        <DescriptionComponent title='Feature Films' description={featureFilms} style='up' />
+        <DescriptionComponent title='Short Films' description={shortFilms} style='up' />
       </div>
     </div>
   )

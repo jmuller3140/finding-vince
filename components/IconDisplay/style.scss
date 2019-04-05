@@ -1,0 +1,38 @@
+.icon-display-container{
+  width: 100%;
+  font-family: Raleway-Regular;
+}
+.icon-display-content{
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size:40pt;
+  padding: 4rem 0 4rem 0;
+  background-color:lightblue;
+}
+.icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:2rem;
+}
+.icon-description{
+  font-family: Raleway-Regular;
+}
+.icon-statement{
+  width:70%;
+  display:flex;
+  justify-content: center;
+  text-align: justify;
+  font-size:18pt;
+  font-family: Raleway-Regular;
+  margin:4rem;
+}
+.icons{
+  display:flex;
+  justify-content: space-between;
+  padding-top:6rem;
+  width:50%;
+}

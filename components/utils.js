@@ -12,3 +12,26 @@ export const getFilmInstance = (query) => {
   const key = Object.keys(selectedFilm)[0]
   return selectedFilm[key]
 }
+
+export const getEffect = (style) => {
+  let effect = ''
+  if (typeof style !== 'undefined') {
+    switch (style.toLowerCase()) {
+      case 'left':
+        effect = 'fadeInLeft'
+        break
+      case 'right':
+        effect = 'fadeInRight'
+        break
+      case 'up':
+        effect = 'fadeInUp'
+        break
+      case 'down':
+        effect = 'fadeInDown'
+        break
+      default:
+        effect = ''
+    }
+  }
+  return effect
+}

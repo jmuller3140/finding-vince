@@ -6,3 +6,4 @@ export { MediaContentComponent, HomeContentComponent, ArtistsContentComponent, A
 export { FooterComponent } from './footer'
 export { DescriptionComponent } from './description'
 export { BannerComponent } from './banner'
+export { QuoteComponent } from './quote'

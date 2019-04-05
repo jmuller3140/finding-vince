@@ -1,11 +1,27 @@
 import React from 'react'
 import SiteInfo from '../../../assets/data/siteInfo'
 import './style.scss'
+import { PictureDisplayComponent } from '../../pictureDisplay'
 import Zoom from 'react-reveal/Zoom'
 import Reveal from 'react-reveal/Reveal'
 const HomeContentComponent = () => {
 
-  const { bannerTitle, bannerImg, sections } = SiteInfo.pageInfo['Home']
+  const pictures = [{
+    src: '/static/pics/placeholder-image.jpg',
+    alt: 'placeholder',
+    height: '150',
+    width: '200'
+  }, {
+    src: '/static/pics/placeholder-image.jpg',
+    alt: 'placeholder',
+    height: '150',
+    width: '200'
+  }, {
+    src: '/static/pics/placeholder-image.jpg',
+    alt: 'placeholder',
+    height: '150',
+    width: '200'
+  }]
   return (
     <div className='home-container'>
       <div className='home-content-container'>
@@ -20,8 +36,11 @@ const HomeContentComponent = () => {
         <div className='second-panel'>
           <Zoom>
             <div className='des'>
-              We want to champion twenty-first century storytellers and challenge audiences with films that change our perspective on poverty in our communities. We spark our imaginations by sharing the charism through creativity that is inspired by the Vincentian mission to globalize charity.
+              We want to champion twenty-first century storytellers and challenge audiences with films that change our perspective on poverty in our communities.
           </div>
+          </Zoom>
+          <Zoom>
+            <PictureDisplayComponent pictures={pictures} />
           </Zoom>
           <Zoom>
             <div className='video-showcase'>
@@ -38,3 +57,5 @@ const HomeContentComponent = () => {
   )
 }
 export default HomeContentComponent
+
+//We spark our imaginations by sharing the charism through creativity that is inspired by the Vincentian mission to globalize charity.

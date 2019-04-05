@@ -1,31 +1,19 @@
 .artists-container{
   display:flex;
   width:100%;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   flex-wrap:wrap;
   margin-top: 6rem;
   padding-bottom:4rem;
+  font-family: Raleway-Regular;
 }
-.artsits-content-container{
+.artists-content-container{
   display:flex;
   flex-direction:column;
   justify-content: flex-start;
   align-items: center;
-}
-.artists-icon-container{
-  width:100%;
-  justify-content: center;
-  display: flex;
-  font-size:50pt;
-  padding:4rem;
-  background-color:yellow;
-}
-.artists-icon{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin:2rem;
 }
 .w-65{
   width:65%;
