@@ -4,6 +4,7 @@ import { BannerComponent } from '../../banner'
 import { QuoteComponent } from '../../quote'
 import { IconDisplayComponent } from '../../IconDisplay'
 import Zoom from 'react-reveal/Zoom'
+import Media from 'react-responsive'
 import SiteInfo from '../../../assets/data/siteInfo'
 import './style.scss'
 import { faPenFancy, faFilm, faPalette } from '@fortawesome/free-solid-svg-icons'
@@ -24,7 +25,8 @@ const ArtistsContentComponent = () => {
   }]
 
   return (
-    <div className='artists-container'>
+    <Media minWidth={600}>
+<div className='artists-container'>
       <BannerComponent title={bannerTitle} img={bannerImg} />
       <div className='artists-content-container'>
         <QuoteComponent quote='We believe that artists can change the world for the better' effect='up' />
@@ -46,6 +48,7 @@ const ArtistsContentComponent = () => {
         </div>
       </div>
     </div>
+    </Media>
   )
 }
 export default ArtistsContentComponent

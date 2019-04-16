@@ -1,5 +1,6 @@
 .footer-container{
   height: 10rem;
+  width:100%;
   padding-top:2rem;
   padding-bottom:2rem;
   background-color: #29292A;
@@ -16,8 +17,17 @@
     color: #FFFF33;
   }
 }
+.mobile-icon{
+  font-size:15pt;
+}
 .icon-wrapper{
-  width:20rem;
+  width:100%;
+  height:inherit;
+  display:flex;
+  justify-content:space-around;
+}
+.icon-wrapper-mobile{
+  width:100%;
   height:inherit;
   display:flex;
   justify-content:space-around;

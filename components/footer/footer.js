@@ -1,24 +1,21 @@
-import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCopyright } from '@fortawesome/free-solid-svg-icons'
-import { faInstagram, faFacebook, faTwitterSquare, faVimeo, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import React, {Fragment} from 'react'
+import Media from 'react-responsive'
+import {default as FooterMedia} from './footerMedia'
+import {default as FooterMax} from './footerMax'
 import './style.scss'
 import 'normalize.css'
 
 const FooterComponent = () => {
 
   return (
-    <div className='footer-container'>
-      <div className='icon-container'>
-        <div className='icon-wrapper'>
-          <a className='icon' href="https://www.facebook.com/jimmy.muller.7140" target="_blank"><FontAwesomeIcon icon={faFacebook} /></a>
-          <a className='icon' href="https://twitter.com/jmuller3140" target="_blank"><FontAwesomeIcon icon={faTwitterSquare} /></a>
-          <a className='icon' href="http://www.linkedin.com/in/james-muller3140" target="_blank"><FontAwesomeIcon icon={faVimeo} /></a>
-          <a className='icon' href="https://github.com/jmuller3140" target="_blank"><FontAwesomeIcon icon={faYoutube} /></a>
-          <a className='icon' href="https://github.com/jmuller3140" target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
-        </div>
-      </div>
-    </div>
+    <Fragment>
+      <Media maxWidth={599}>
+        <FooterMedia/>
+      </Media>
+      <Media minWidth={600}>
+        <FooterMax/>
+      </Media>
+    </Fragment>
   )
 }
 export default FooterComponent
