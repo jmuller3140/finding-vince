@@ -1,43 +1,18 @@
-import React from 'react'
-import { DescriptionComponent } from '../../description'
-import { BannerComponent } from '../../banner'
-import { PictureDisplayComponent } from '../../pictureDisplay'
-import SiteInfo from '../../../assets/data/siteInfo'
-import { QuoteComponent } from '../../quote'
+import React, { Fragment } from 'react'
+import Media from 'react-responsive'
+import { AboutContentMaxComponent, AboutContentMediaComponent } from './index'
 import './style.scss'
 
 const AboutContentComponent = () => {
-  const { bannerTitle, bannerImg, sections } = SiteInfo.pageInfo['About']
-  const pictures = [{
-    src: '/static/pics/placeholder-image.jpg',
-    alt: 'placeholder',
-    height: '150',
-    width: '200'
-  }, {
-    src: '/static/pics/placeholder-image.jpg',
-    alt: 'placeholder',
-    height: '150',
-    width: '200'
-  }, {
-    src: '/static/pics/placeholder-image.jpg',
-    alt: 'placeholder',
-    height: '150',
-    width: '200'
-  }]
   return (
-    <div className='about-container'>
-      {/* <BannerComponent title={bannerTitle} img={bannerImg} /> */}
-      <div className='content-container'>
-        <QuoteComponent quote='We believe artists can make a positive change in this world' style='up' />
-        {
-          sections.map((section, idx) => {
-            return (
-              <DescriptionComponent title={section.title} description={section.description} key={idx} />
-            )
-          })
-        }
-      </div>
-    </div>
+    <Fragment>
+      <Media maxWidth={599}>
+        <AboutContentMediaComponent />
+      </Media>
+      <Media minWidth={600}>
+        <AboutContentMaxComponent />
+      </Media>
+    </Fragment>
   )
 }
 export default AboutContentComponent

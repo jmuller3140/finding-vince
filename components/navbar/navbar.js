@@ -1,15 +1,11 @@
-import {Fragment} from 'react'
+import { Fragment } from 'react'
 import { withRouter } from 'next/router'
 import './navbar.scss'
 import Media from 'react-responsive'
-import {default as NavbarMedia} from './navbarMedia'
-import {default as NavbarMax} from './navbarMax'
+import { default as NavbarMedia } from './navbarMedia'
+import { default as NavbarMax } from './navbarMax'
 const NavbarComponent = withRouter(props => {
   const pages = [
-    {
-      url: '/',
-      title: 'Home'
-    },
     {
       url: '/artists',
       title: 'Artists'
@@ -31,10 +27,10 @@ const NavbarComponent = withRouter(props => {
   return (
     <Fragment>
       <Media maxWidth={599}>
-        <NavbarMedia pages={pages} {...props}/>
+        <NavbarMedia pages={pages} {...props} />
       </Media>
       <Media minWidth={600}>
-        <NavbarMax pages={pages} {...props}/>
+        <NavbarMax pages={pages} {...props} />
       </Media>
     </Fragment>
   )
