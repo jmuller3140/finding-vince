@@ -1,24 +1,18 @@
-import React from 'react'
-import { DescriptionComponent } from '../../description'
-import { BannerComponent } from '../../banner'
-import SiteInfo from '../../../assets/data/siteInfo'
+import React, { Fragment } from 'react'
+import { ContactContentMaxComponent, ContactContentMediaComponent } from './index'
+import Media from 'react-responsive'
 import './style.scss'
 const ContactContentComponent = () => {
 
-  const { bannerTitle, bannerImg, sections } = SiteInfo.pageInfo['Contact']
   return (
-    <div className='contact-container'>
-      <BannerComponent title={bannerTitle} img={bannerImg} />
-      <div className='content-container'>
-        {
-          sections.map((section, idx) => {
-            return (
-              <DescriptionComponent title={section.title} description={section.description} key={idx} />
-            )
-          })
-        }
-      </div>
-    </div>
+    <Fragment>
+      <Media maxWidth={599}>
+        <ContactContentMediaComponent />
+      </Media>
+      <Media minWidth={600}>
+        <ContactContentMaxComponent />
+      </Media>
+    </Fragment>
   )
 }
 export default ContactContentComponent
