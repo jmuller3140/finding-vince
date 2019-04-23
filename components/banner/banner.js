@@ -11,7 +11,7 @@ const BannerComponent = ({ img, title }) => {
     backgroundAttachment: 'fixed',
   }
   return (
-    <div style={style} className='flex justify-center align-center w-100'>
+    <div style={style} className='flex justify-center align-center w-100 banner'>
       {title}
     </div>
   )

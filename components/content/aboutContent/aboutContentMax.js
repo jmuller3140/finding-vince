@@ -25,7 +25,7 @@ const AboutContentMaxComponent = () => {
   }]
   return (
     <div className='about-container'>
-      {/* <BannerComponent title={bannerTitle} img={bannerImg} /> */}
+      <BannerComponent title={bannerTitle} img={bannerImg} />
       <div className='content-container'>
         <QuoteComponent quote='We believe artists can make a positive change in this world' style='up' />
         {

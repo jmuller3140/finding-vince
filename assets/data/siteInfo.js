@@ -46,7 +46,7 @@ module.exports = {
       ogUrl: '',
       ogType: 'website',
       bannerTitle: 'About Us',
-      bannerImg: '/static/pics/aazar.jpg',
+      bannerImg: '/static/pics/filmCover.jpg',
       sections: [{
         title: 'Who are we?',
         description: "Finding Vince 400 is a competition and festival for people of all voices. It is inspired by the 400th Anniversary of the charism of St. Vincent DePaul. Finding Vince 400 is part of the the Vincentian Family's Initiative to globalize charity."
@@ -68,7 +68,7 @@ module.exports = {
       ogUrl: '',
       ogType: 'website',
       bannerTitle: 'Artists',
-      bannerImg: '/static/pics/aazar.jpg',
+      bannerImg: '/static/pics/filmCover.jpg',
       sections: [{
         title: 'Seeds of Hope Competition',
         description: "All those under the age of 18 are invited to create seeds of hope, we call upon you to utilize any creative expression" +
@@ -95,7 +95,7 @@ module.exports = {
       ogUrl: '',
       ogType: 'website',
       bannerTitle: 'Contact',
-      bannerImg: '/static/pics/aazar.jpg',
+      bannerImg: '/static/pics/filmCover.jpg',
       sections: [{
         title: 'Who are we?',
         description: "Finding Vince 400 is a competition and festival for people of all voices. It is inspired by the 400th Anniversary of the charism of St. Vincent DePaul. Finding Vince 400 is part of the the Vincentian Family's Initiative to globalize charity."
@@ -117,7 +117,7 @@ module.exports = {
       ogUrl: '',
       ogType: 'website',
       bannerTitle: 'Media',
-      bannerImg: '/static/pics/aazar.jpg',
+      bannerImg: '/static/pics/filmCover.jpg',
       sections: [{
         title: 'Who are we?',
         description: "Finding Vince 400 is a competition and festival for people of all voices. It is inspired by the 400th Anniversary of the charism of St. Vincent DePaul. Finding Vince 400 is part of the the Vincentian Family's Initiative to globalize charity."
@@ -139,7 +139,7 @@ module.exports = {
       ogUrl: '',
       ogType: 'website',
       bannerTitle: 'Home',
-      bannerImg: '/static/pics/aazar.jpg',
+      bannerImg: '/static/pics/filmCover.jpg',
       sections: [{
         title: 'Who are we?',
         description: "Finding Vince 400 is a competition and festival for people of all voices. It is inspired by the 400th Anniversary of the charism of St. Vincent DePaul. Finding Vince 400 is part of the the Vincentian Family's Initiative to globalize charity."

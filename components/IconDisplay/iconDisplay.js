@@ -19,9 +19,9 @@ const IconDisplayComponent = ({ icons, statement }) => {
         }
         <div className='icons'>
           {
-            icons.map(icon => {
+            icons.map((icon, idx) => {
               return (
-                <Reveal effect='fadeInDown'>
+                <Reveal effect='fadeInDown' key={idx}>
                   <div className='icon'>
                     <FontAwesomeIcon icon={icon.icon} />
                     <p className='icon-description'>
