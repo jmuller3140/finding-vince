@@ -3,11 +3,12 @@ import './style.scss'
 import { BannerComponent } from '../banner'
 import Reveal from 'react-reveal/Reveal'
 const FilmDetailsMaxComponent = ({ title, description, length, video, type, year, country, directed, bannerUrl }) => {
+  const videoUrl = video.replace("watch?v=", "embed/");
   return (
     <div className='details-container'>
       <BannerComponent img={bannerUrl} title={title} />
       <div className='details-content'>
-        <iframe src={video} width="960" height="540" frameBorder="0" allowFullScreen></iframe>
+        <iframe src={videoUrl} width="960" height="540" frameBorder="0" allowFullScreen></iframe>
         <div className='detail-wrapper'>
           <div className='detail detail-left'>
             <Reveal effect='fadeInUp'>
