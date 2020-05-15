@@ -1,0 +1,49 @@
+
+.film-container-youtube{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:flex-start;
+    width: 400px;
+}
+.film-content-youtube{
+    height:300px;
+    width: 400px;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items:center;
+}
+.link-container{
+    overflow:hidden;
+}
+.image-container{
+    overflow:hidden;
+    display:flex;
+    justify-content: center;
+}
+.title-youtube{
+    text-align: center;
+    margin-top:1rem;
+    font-size:12pt;
+    font-family: Raleway-Regular;
+}
+.overflow-hiddenyoutube{
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    line-height: 0;
+}
+.image{
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    &:hover{
+        opacity:.4;
+        filter:blur(2px);
+        -moz-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
