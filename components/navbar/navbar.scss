@@ -83,3 +83,32 @@ a {
 .z-index{
   z-index: 1000;
 }
+.Navbar__Container{
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  width: 100%;
+  left:0;
+  top:90px;
+  background-color: white;
+
+}
+.Navbar__Dropdown {
+  background-color: white;
+  display: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.Navbar__Link {
+  color: silver;
+  font-family: Moon-Light;
+  font-size: 1.73em;
+  text-decoration: none;
+
+  &:hover {
+    color:black;
+    text-decoration:none;
+  }
+}

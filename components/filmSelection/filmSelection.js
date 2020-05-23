@@ -7,14 +7,14 @@ import { BannerComponent } from '../banner'
 import { DescriptionComponent } from '../description'
 import { FilmComponent } from '../film'
 import './style.scss'
-const FilmSelectionComponent = () => {
+const FilmSelectionComponent = (props) => {
   return (
     <Fragment>
       <Media maxWidth={599}>
-        <FilmSelectionMediaComponent />
+        <FilmSelectionMediaComponent { ...props }/>
       </Media>
       <Media minWidth={600}>
-        <FilmSelectionMaxComponent />
+        <FilmSelectionMaxComponent { ...props }/>
       </Media>
     </Fragment>
   )

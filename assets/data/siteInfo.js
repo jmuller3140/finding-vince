@@ -49,15 +49,16 @@ module.exports = {
       bannerImg: '/static/pics/filmCover.jpg',
       sections: [{
         title: 'Who are we?',
-        description: "Finding Vince 400 is a competition and festival for people of all voices. It is inspired by the 400th Anniversary of the charism of St. Vincent DePaul. Finding Vince 400 is part of the the Vincentian Family's Initiative to globalize charity."
+        description: "VinFlix is the creative expression of artists advocating the globalization of charity. It is an integral part of the Vincentian Family’s work on behalf of and for those struggling against poverty in all its forms.",
+        description_p2: "The Vincentian charism was born more than 400 years ago thanks to the inspiration and courage of St. Vincent de Paul. Today, more than 4,000,000 people around the world follow in his footsteps."
       },
       {
         title: 'Mission',
-        description: "Champion 21st century storytellers and challenge audiences with films that change our perspective on poverty in our communityies. We spark our imaginations by sharing the charism through creativity that is inspired by the Vincentian mission to globalize charity."
+        description: "Champion 21st century storytellers and challenge audiences with films that change our perspective on poverty in our communities. We spark our imaginations by sharing the charism through creativity that is inspired by the Vincentian mission to globalize charity."
       },
       {
         title: 'The Team',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tellus elit, sodales a mattis vitae, tempor nec urna. Duis aliquam risus ac viverra molestie. Aliquam quis ex est. Maecenas sit amet massa ut arcu rutrum aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum dictum turpis vel felis luctus dapibus. Quisque rutrum maximus pellentesque. Fusce et odio non risus tincidunt venenatis. Integer eleifend porta nisi eu finibus. Vivamus faucibus fermentum tellus, vitae cursus nibh dictum eu. Nam facilisis malesuada eros vitae tincidunt. Sed tincidunt metus a enim auctor, a sollicitudin lectus volutpat. Sed eget elit rhoncus diam luctus consectetur.'
+        description: 'The international Vincentian Family Office coordinates activities, provides information and offers formation experiences on the heritage and charism of St. Vincent de Paul to the Vincentian Family throughout the world. In collaboration with artists around the globe, we seek ever new ways to express our mission.'
       }]
     },
     'Artists': {
@@ -97,16 +98,8 @@ module.exports = {
       bannerTitle: 'Contact',
       bannerImg: '/static/pics/filmCover.jpg',
       sections: [{
-        title: 'Who are we?',
-        description: "Finding Vince 400 is a competition and festival for people of all voices. It is inspired by the 400th Anniversary of the charism of St. Vincent DePaul. Finding Vince 400 is part of the the Vincentian Family's Initiative to globalize charity."
-      },
-      {
-        title: 'Mission',
-        description: "Champion 21st century storytellers and challenge audiences with films that change our perspective on poverty in our communityies. We spark our imaginations by sharing the charism through creativity that is inspired by the Vincentian mission to globalize charity."
-      },
-      {
-        title: 'The Team',
-        description: 'Who are we?'
+        title: 'Information',
+      description: '',
       }]
     },
     'Media': {

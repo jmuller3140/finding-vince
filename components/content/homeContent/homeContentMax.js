@@ -10,7 +10,11 @@ const HomeContentMax = ({ pictures }) => {
         <div className='first-panel'>
           <img src='/static/pics/five-virtues.jpg' alt="fv400" />
           <Reveal effect="fadeInUp">
-            <div id='first-panel-description'>Finding Vince is a free film arts festival where anyone can attend. Come see a personal diverse program of international stories that will change your perspective on poverty.</div>
+            <div id='first-panel-description'>
+              Welcome to VinFlix.net! Come see a wide diversity of media, creatively
+              exploring the Vincentian call to globalize charity. Here we continue to tell
+              the stories that will change our perspective on poverty.
+            </div>
           </Reveal>
           <div className='right-content'>
           </div>
@@ -21,7 +25,7 @@ const HomeContentMax = ({ pictures }) => {
               We want to champion twenty-first century storytellers and challenge audiences with films that change our perspective on poverty in our communities.
             </div>
           </Zoom>
-          <Zoom>
+          {/* <Zoom>
             <div className='video-showcase'>
               <iframe src="https://player.vimeo.com/video/283313298" width="716" height="402" allowFullScreen />
               <div>
@@ -29,7 +33,7 @@ const HomeContentMax = ({ pictures }) => {
                 <iframe src="https://www.youtube.com/embed/RxmNCEIbs-c" width="358" height="201" allowFullScreen />
               </div>
             </div>
-          </Zoom>
+          </Zoom> */}
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ import { FilmComponent } from '../film'
 import { YoutubeComponent } from '../youtube'
 import './style.scss'
 import Film from '../../pages/film'
-const FilmSelectionMaxComponent = () => {
+const FilmSelectionMaxComponent = ({ section }) => {
   const { bannerTitle, bannerImg } = SiteInfo.pageInfo['Media']
   let featureFilms = [];
   let shortFilms = [];
@@ -28,13 +28,26 @@ const FilmSelectionMaxComponent = () => {
   youtubeLinks.forEach((link, idx) => {
     youtubeFilms.push(<YoutubeComponent id={idx} picUrl={link.link} title={link.title} key={idx} />)
   })
+  console.log(section)
   return (
     <div className='films-container'>
       <BannerComponent title={bannerTitle} img={bannerImg} />
       <div className='films-content-container'>
-        <DescriptionComponent title='Example Films' description={youtubeFilms} style='up' />
-        <DescriptionComponent title='Feature Films' description={featureFilms} style='up' />
-        <DescriptionComponent title='Short Films' description={shortFilms} style='up' />
+        {
+          section === "features" && (
+            <DescriptionComponent title='Feature Films' description={featureFilms} style='up' />
+          )
+        }
+        {
+          section === "examples" && (
+            <DescriptionComponent title='Example Films' description={youtubeFilms} style='up' />
+          )
+        }
+        {
+          section === "shorts" && (
+            <DescriptionComponent title='Short Films' description={shortFilms} style='up' />
+          )
+        }
       </div>
     </div>
   )

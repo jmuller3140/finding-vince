@@ -17,6 +17,16 @@ const ContactContentMaxComponent = () => {
             )
           })
         }
+        <p>To upload a film, piece of art, or short story to this site, please send it to:</p>
+        <br/>
+        <a href="mailto:vinflix@famvin.org">vinflix@famvin.org</a>
+        <br/>
+        <h5>Along with the following information:</h5>
+        <ul className="list-group list-group-flush list-unstyled">
+          <li className="mt-2">Name of art piece: </li>
+          <li className="mt-2">Name of Submitter: </li>
+          <li className="mt-2">Email address:</li>
+        </ul>
       </div>
     </div>
   )

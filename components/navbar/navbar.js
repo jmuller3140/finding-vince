@@ -6,10 +6,10 @@ import { default as NavbarMedia } from './navbarMedia'
 import { default as NavbarMax } from './navbarMax'
 const NavbarComponent = withRouter(props => {
   const pages = [
-    {
-      url: '/artists',
-      title: 'Artists'
-    },
+    // {
+    //   url: '/artists',
+    //   title: 'Artists'
+    // },
     {
       url: '/media',
       title: 'Media'

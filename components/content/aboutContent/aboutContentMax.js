@@ -31,7 +31,7 @@ const AboutContentMaxComponent = () => {
         {
           sections.map((section, idx) => {
             return (
-              <DescriptionComponent title={section.title} description={section.description} key={idx} />
+              <DescriptionComponent title={section.title} description={section.description} desciption2={section.description_p2} key={idx} />
             )
           })
         }
